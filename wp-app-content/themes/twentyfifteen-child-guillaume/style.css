@@ -1,0 +1,89 @@
+/*
+Theme Name: Twenty Fifteen Child - Guillaume
+Description: WordPress Child theme of Twenty Fifteen the default theme for year 2015. Added back to top link and replaced default font.
+Version: 1.0
+Author: Guillaume Molter
+Author URI: guillaumemolter.me
+Template: twentyfifteen
+*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Helvetica, sans-serif;
+}
+.post-navigation .post-title {
+        font-family: "Cabin", Helvetica, sans-serif;
+}
+.widget_calendar caption {
+	font-family: "Cabin", Helvetica, sans-serif;
+}
+.page-title {
+	font-family: "Cabin", Helvetica, sans-serif;
+}
+.comments-title,
+.comment-reply-title {
+	font-family: "Cabin", Helvetica, sans-serif;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 0px;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(235, 235, 235, 0.80);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.back-to-top:hover {	
+	background-color: rgba(135, 135, 135, 0.50);
+}
+
+.textwidget a.fa{
+	font-size: 1.5em;
+	margin: 0 10px 10px 0;
+	display: inline-block;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    border: 0;
+}
+
+.textwidget a.fa:hover{
+	text-decoration: none;
+}
+
+.textwidget a.fa.fa-facebook:hover{
+	color:#3A5795;
+}
+
+.textwidget a.fa.fa-twitter:hover{
+	color:#55ACEE;
+}
+
+.textwidget a.fa.fa-linkedin:hover{
+	color:#0073B2;
+}
+
+.textwidget a.fa.fa-youtube:hover{
+	color:#CC181E;
+}
+
+.textwidget a.fa.fa-github-alt:hover{
+	color:#030303;
+}
+
+.textwidget a.fa.fa-flickr:hover{
+	color:#ED007D;
+}
+
+.textwidget a.fa.fa-instagram:hover{
+	color:#D8CDC0;
+}
+
+.textwidget a.fa.fa-pinterest:hover{
+	color:#AD2C26;
+}

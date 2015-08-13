@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+
+	.home h1{
+		font-size: 24px;
+		text-align: center;
+		margin: 30px 0;	
+	}
+
+	.home .leftCol,
+	.home .rightCol,
+	.leftCol,
+	.rightCol{
+		width: 100%;
+		float: none;
+	}
+	
+	.home img{
+		display: none;
+	}
+	
+	#contentWrapper{
+		width: 100%;
+	}
+	
+	.page article,
+	header{
+		max-width: 100%;
+		padding: 15px;
+	}
+	
+	header img{
+		width: 66px;
+		height: 75px;
+	}
+
+	header nav a{
+		display: inline-block;
+		padding: 0;
+	}
+	
+	header nav a.link{
+		margin: 5px;
+		font-size: 18px;
+	}
+}

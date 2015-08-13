@@ -1,0 +1,181 @@
+/*
+Theme Name: Twenty Fifteen Child - Samoëns
+Description: WordPress Child theme of Twenty Fifteen the default theme for year 2015. Added back to top link and replaced default font.
+Version: 1.0
+Author: Guillaume Molter
+Author URI: guillaumemolter.me
+Template: twentyfifteen
+*/
+
+.site-main{
+	padding: 0;
+}
+
+#map{
+	width: 100%;
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+	height: 450px;
+}
+
+#mapLegend{
+	margin-left: 0;
+	margin: 10px 0 30px;
+}
+
+#mapLegend li{
+	float: left;
+	padding-left: 15px;
+	background:url(images/map/icns.png) no-repeat 0 0 transparent;
+	list-style: none;
+	margin-right: 10px;
+	font-size: 0.7em;
+}
+
+#mapLegend li.ico1{
+	background-position: 0px 5px;
+}
+
+#mapLegend li.ico2{
+	background-position: 0px -14px;
+}
+
+#mapLegend li.ico3{
+	background-position: 0px -35px;
+}
+
+#mapLegend li.ico4{
+	background-position: 0px -56px;
+}
+
+
+.page-id-16 .site-content iframe,
+.page-id-100 .site-content iframe{
+	display: none;
+}
+
+aside.widget.widget_nav_menu{
+	margin-bottom: 0;
+}
+
+aside.widget.widget_nav_menu ul.menu{
+	margin-bottom: 10px;
+}
+
+.bogo-language-switcher{
+	border-top: 1px solid #e2e2e2;
+	padding-top: 10px;
+}
+
+.bogo-language-switcher a{
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+@media screen and (min-width: 59.6875em) {
+	.site-content{
+		margin-left: 24%;
+		width: 76%;
+		border-left: 1px dashed #d2d2d2;
+	}
+	
+	.sidebar {
+	    max-width: 350px;
+	    width: 20.412%;
+	}
+	
+	.page-id-16 .site-content iframe,
+	.page-id-100 .site-content iframe{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 87.6875em) {
+	body:before {
+		width: -webkit-calc(46% - 289px);
+		width: calc(46% - 289px);
+	}
+}
+
+article.page.hentry{
+	margin: 0;
+	box-shadow: none;
+	background: #fcfcfc;
+}
+
+#colophon{
+	display: none;
+}
+
+.page-id-30 .site-content ul,
+.page-id-110 .site-content ul{
+	margin: 10px 0 0 30px;
+}
+
+
+.page-id-13 table,
+.page-id-113 table{
+	width: 100%;
+	font-size: 16px;
+	vertical-align:middle;
+	margin-bottom: 20px;
+	border: 0 none;
+}
+
+.page-id-13 thead th,
+.page-id-113 thead th{
+	text-align: center;
+	border: 0 none;
+}
+
+
+.page-id-13 thead th.header1,
+.page-id-113 thead th.header1{
+	background: #fcf2ec;
+	font-family: 'PT Serif Cpation',"Times New Roman", Times, serif;
+	color:#575757;
+	padding: 10px 0;
+	font-size: 18px;
+	border: 1px solid #e2e2e2;
+}
+
+.page-id-13 thead th.header1 span,
+.page-id-113 thead th.header1 span{
+	color:#CABCB7;
+	font-size: 14px;
+}
+
+.page-id-13 thead th.header2,
+.page-id-113 thead th.header2{
+	background: #ebe3de;
+	font-family: 'PT Serif',"Times New Roman", Times, serif;
+	color:#575757;
+	padding: 10px 0;
+	font-size: 12px;
+	margin-top: 1px;
+	border: 1px solid #e2e2e2;
+	border-top: 0 none;
+}
+
+.page-id-13 tbody th,
+.page-id-113 tbody th{
+	background: #ebe3de;
+	font-family: 'PT Serif Caption',"Times New Roman", Times, serif;
+	color:#575757;
+	padding: 10px 0;
+	font-size: 14px;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+}
+
+.page-id-13 tbody td,
+.page-id-113 tbody td{
+	padding: 10px 0;
+	vertical-align:middle;
+	border-bottom: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	text-align: center;
+}
+
+span.sociable{
+	font-size: 0.7em;
+}

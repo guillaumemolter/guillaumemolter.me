@@ -1,0 +1,22 @@
+/*
+
+Theme Name: Kristen & Guillaume
+Theme URI: https://github.com/guillaumemolter
+Description: A theme for a wedding site
+Author: Guillaume Molter
+Author URI: https://github.com/guillaumemolter
+Version: 1.0
+
+
+reset.css - Eric Mayer's CSS Reset 2.0
+plugins.css - Copy/paste in this file all CSS from jQuery plugins and others. 
+layout.css - Your website CSS code
+mediaqueries.css - the name is pretty explicit
+
+*/
+
+
+@import url(styles/reset.css);
+@import url(styles/plugins.css);
+@import url(styles/layout.css);
+@import url(styles/mediaqueries.css);
