@@ -5,11 +5,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'post_feat_image' ) != 1 ) ) : ?>
-		<div class="single-thumb">
-			<?php the_post_thumbnail('bcwp-entry-thumb'); ?>
-		</div>	
-	<?php endif; ?>	
 
 	<div class="post-inner">	
 		<header class="entry-header">
