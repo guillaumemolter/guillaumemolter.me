@@ -121,17 +121,11 @@ function bcwp_widgets_init() {
 	) );	
 
 	//Custom widgets
-	register_widget( 'bcwp_video' );
-	register_widget( 'bcwp_Recent_Comments' );
-	register_widget( 'bcwp_Recent_Posts' );
 	register_widget( 'bcwp_About' );
 }
 add_action( 'widgets_init', 'bcwp_widgets_init' );
 
 //Custom widgets
-require get_template_directory() . "/widgets/video-widget.php";
-require get_template_directory() . "/widgets/recent-comments.php";
-require get_template_directory() . "/widgets/recent-posts.php";
 require get_template_directory() . "/widgets/about-me.php";
 
 /**
